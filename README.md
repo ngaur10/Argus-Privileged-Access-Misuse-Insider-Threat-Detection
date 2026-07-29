@@ -1,0 +1,2 @@
+# Argus-Privileged-Access-Misuse-Insider-Threat-Detection
+Serverless AWS system that detects and auto-contains privileged access misuse. Grants admin power only Just-In-Time (MFA-gated, 1hr STS sessions) correlates CloudTrail + GuardDuty events with an identity-aware Lambda risk engine and auto-locks compromised sessions by denying the role itself  with full evidence logged to DynamoDB, S3, and SNS alerts
