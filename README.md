@@ -23,7 +23,6 @@ Just-In-Time Access • Continuous Monitoring • Identity-Aware Risk Engine •
 - [Example: What Triggers a Critical Alert](#example-what-triggers-a-critical-alert)
 - [Why It's Built This Way](#why-its-built-this-way)
 - [AWS Services Used](#aws-services-used)
-- [Repository Structure](#repository-structure)
 - [Skills Demonstrated](#skills-demonstrated)
 - [Documentation](#documentation)
 
@@ -58,7 +57,7 @@ Argus takes a different approach: not "block bad traffic," but **make power temp
 
 ## Architecture
 
-![Project Argus Architecture](diagrams/architecture.png)
+<img width="1536" height="1024" alt="argus3" src="https://github.com/user-attachments/assets/03f7a8fb-13a3-464a-8fc5-03fd6d44ff67" />
 
 ### Architecture Overview
 
@@ -154,21 +153,6 @@ This exact scenario was run live against the deployed system — see the inciden
 - Amazon VPC Endpoints
 - AWS Systems Manager
 
-## Repository Structure
-
-```text
-Project-Argus/
-│
-├── README.md
-├── LICENSE
-├── lambda/
-│   └── risk_engine.py
-├── documentation/       # Full technical write-up
-├── diagrams/            # Architecture diagram(s)
-├── screenshots/         # Console evidence (IAM, CloudTrail, DynamoDB, SNS, etc.)
-├── iam/                 # Role and policy definitions
-└── eventbridge/         # Event pattern rules
-```
 
 ## Skills Demonstrated
 
@@ -185,7 +169,7 @@ Project-Argus/
 
 ## Documentation
 
-Full technical documentation — including the architecture diagram and a screenshot-by-screenshot live incident walkthrough — is included in this repo under `documentation/`.
+Full technical documentation — including the architecture diagram and a screenshot-by-screenshot live incident walkthrough — is included in this repo under `Documentation/`.
 
 ---
 
